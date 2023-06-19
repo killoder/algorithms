@@ -35,14 +35,14 @@ class SLL {
     }
 }
 
-SLL1 = new SLL();
-console.log(SLL1.addFront(18)); // Output: Node { data: 18, next: null }
-console.log(SLL1.addFront(5)); // Output: Node { data: 5, next: Node { data: 18, next: null } }
-console.log(SLL1.addFront(73)); // Output: Node { data: 73, next: Node { data: 5, next: Node { data: 18, next: null } } }
+const SLL1 = new SLL();
+console.log(SLL1.addFront(18));
+console.log(SLL1.addFront(5));
+console.log(SLL1.addFront(73));
 
-console.log(SLL1.removeFront()); // Output: Node { data: 5, next: Node { data: 18, next: null } }
-console.log(SLL1.removeFront()); // Output: Node { data: 18, next: null }
+console.log(SLL1.removeFront());
+console.log(SLL1.removeFront()); 
 
-console.log(SLL1.front()); // Output: 18
-console.log(SLL1.removeFront()); // Output: null
-console.log(SLL1.front()); // Output: null
+console.log(SLL1.front());
+console.log(SLL1.removeFront()); 
+console.log(SLL1.front()); 
